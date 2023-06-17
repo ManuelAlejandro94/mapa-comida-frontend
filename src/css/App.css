@@ -1,3 +1,11 @@
 .text-centered{
     text-align: center;
 }
+
+.bg-purple{
+    background-color: var(--bs-purple);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    color: var(--bs-gray-400);
+}
