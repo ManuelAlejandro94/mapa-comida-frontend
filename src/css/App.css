@@ -6,6 +6,19 @@
     background-color: var(--bs-purple);
 }
 
+.bg-purple2{
+    background-color: #A96BFE;
+}
+
+.bg-purple-blue{
+    background-color: #8F78BF;
+}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
     color: var(--bs-gray-400);
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
 }

@@ -3,11 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './App.css'
+import '../css/App.css';
 
 function HeaderNav() {
   return (
-    <Navbar collapseOnSelect expand="md" bg="purple" variant="dark">
+    <Navbar collapseOnSelect expand="md" bg="purple-blue" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Mapa Comida</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home';
 
 const container = document.getElementById('root')
 const root = ReactDOM.createRoot(container);
