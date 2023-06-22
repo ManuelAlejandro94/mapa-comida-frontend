@@ -9,6 +9,7 @@ function Footer() {
             <ListGroup className='container-center' as={"ul"} horizontal>
                 <ListGroup.Item as={"li"}>Facebook</ListGroup.Item>
                 <ListGroup.Item as={"li"}>Instagram</ListGroup.Item>
+                <ListGroup.Item as={"li"}>TikTok</ListGroup.Item>
             </ListGroup>
         </Container>
     );
