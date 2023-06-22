@@ -7,7 +7,7 @@ import '../css/App.css';
 
 function HeaderNav() {
   return (
-    <Navbar collapseOnSelect expand="md" bg="purple-blue" variant="dark">
+    <Navbar collapseOnSelect expand="md" bg="purple-nu" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Mapa Comida</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

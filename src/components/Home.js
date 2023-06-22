@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 const Home = () => {
     return (
-        <div className="bg-purple-blue">
+        <div className="bg-purple-nu">
             <HeaderNav />
             <Container  fluid="md">
                 <Row>

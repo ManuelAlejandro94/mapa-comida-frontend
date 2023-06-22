@@ -14,6 +14,18 @@
     background-color: #8F78BF;
 }
 
+.bg-purple-yahoo{
+    background-color: rgb(88, 14, 202);
+}
+
+.bg-purple-nu{
+    background-color: rgb(95, 39, 169);
+}
+
+.bg-purple-nu-claro{
+    background-color: rgb(155, 110, 221);
+}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
     color: var(--bs-gray-400);
 }
