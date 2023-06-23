@@ -1,0 +1,14 @@
+.container-footer{
+    display: block;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+span{
+    box-sizing: border-box;
+    margin-top: 24px;
+    font-size: inherit;
+    text-align: center;
+    display: block;
+}
