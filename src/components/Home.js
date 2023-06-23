@@ -3,10 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../css/App.css';
-import HeaderNav from "./Header";
+import HeaderNav from "./Header/Header";
 import MapLandingPage from "./Maps/MapLandingPage";
 import Footer from "./Footer/Footer";
 import { Helmet } from "react-helmet";
+import About from "./About/Abouts";
 
 const TITLE = 'Inicio';
 
@@ -23,6 +24,9 @@ const Home = () => {
                         <Col sm={12}>
                             <h1 className="text-centered">Home Page</h1>
                         </Col>
+                    </Row>
+                    <Row>
+                        <About />
                     </Row>
                     <Row>
                         <MapLandingPage />

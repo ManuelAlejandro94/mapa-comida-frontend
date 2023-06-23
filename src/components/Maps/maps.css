@@ -1,6 +1,7 @@
 .Map {
     height: 95vh;
     width: 95vw;
+    justify-content: center;
 }
 
 .map-container {

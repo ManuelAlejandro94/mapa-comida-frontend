@@ -1,0 +1,22 @@
+.big-container{
+    position: static;
+    display: grid;
+    height: auto;
+    width: 95vw;
+    grid-template-rows: repeat(2, min-content) 1fr;
+    grid-template-columns: 100%;
+}
+
+.row-custom{
+    min-height: 45vh;
+    align-items: center;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
