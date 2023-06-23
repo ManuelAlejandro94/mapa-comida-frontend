@@ -34,3 +34,7 @@
     display: flex;
     justify-content: center;
 }
+
+.row-map{
+    justify-content: center;
+}
