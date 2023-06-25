@@ -1,11 +1,12 @@
 import React from "react";
 import {Container, Row, Col} from 'react-bootstrap';
-import '../css/App.css';
-import HeaderNav from "./Header/Header";
-import MapLandingPage from "./Maps/MapLandingPage";
-import Footer from "./Footer/Footer";
+import '../../css/App.css';
+import './home.css';
+import HeaderNav from "../Header/Header";
+import MapLandingPage from "../Maps/MapLandingPage";
+import Footer from "../Footer/Footer";
 import { Helmet } from "react-helmet";
-import About from "./About/Abouts";
+import About from "../About/Abouts";
 
 const TITLE = 'Inicio';
 
@@ -18,9 +19,9 @@ const Home = () => {
             <div className="bg-purple-nu">
                 <HeaderNav />
                 <Container  fluid="md">
-                    <Row>
+                    <Row className="neonRow">
                         <Col sm={12}>
-                            <h1 className="text-centered">Home Page</h1>
+                            <h1 className="text-centered neonText">Mapa comida</h1>
                         </Col>
                     </Row>
                     <Row>
