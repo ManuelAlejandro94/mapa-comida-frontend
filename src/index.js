@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home/Home';
+import App from './App';
+import { BrowserRouter, Router } from 'react-router-dom';
 
 const container = document.getElementById('root')
 const root = ReactDOM.createRoot(container);
-root.render(<Home />);
+root.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
