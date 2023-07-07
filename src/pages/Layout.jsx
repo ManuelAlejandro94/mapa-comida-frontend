@@ -9,8 +9,8 @@ function Layout() {
     return (
         <div className='bg-purple-nu'>
             <HeaderNav />
-            <Row><Outlet /></Row>
-            <Row><Footer /></Row>            
+            <Row className="g-0"><Outlet /></Row>
+            <Row className="g-0"><Footer /></Row>            
         </div>
     );
 }

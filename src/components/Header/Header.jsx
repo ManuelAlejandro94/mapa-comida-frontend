@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../../css/App.css';
 import './header.css';
-import { Outlet } from 'react-router-dom';
 
 function HeaderNav() {
   return (
