@@ -3,6 +3,7 @@ import './register.css';
 import '../../css/App.css';
 import LetrasNeon from "../LetrasNeon/LetrasNeon";
 import { Row, Col, Container } from "react-bootstrap";
+import FormRegister from "../FormRegister/FormRegister";
 
 const Register = () => {
     return (
@@ -14,6 +15,9 @@ const Register = () => {
                     </Col>
                 </Row>
                 <Row>
+                    <Col sm={12}>
+                        <FormRegister />
+                    </Col>
                 </Row>
             </Container>
         </>
